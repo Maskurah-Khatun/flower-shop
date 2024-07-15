@@ -1,0 +1,273 @@
+@font-face {
+    font-family: Lato;
+    src: url(./fonts/Lato/Lato-Black.ttf);
+}
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Lato;
+}
+main{
+    width: 1920px;
+}
+
+.container{
+    width:1920px;
+    height: 850px;
+    background-color: rgba(229, 84, 115, 0.1);
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.head{
+    width: 708px;
+    height: 506px;
+    margin: 197px 97px 147px 240px;
+}
+.head h3{
+    width: 708px;
+    height: 288px;
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 96px;
+    color: rgb(39, 39, 39);
+}
+.head p{
+    width: 634px;
+    height: 90px;
+    margin: 32px 0px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(39, 39, 39, 0.4);
+}
+.head button{
+    width: 177px;
+    height: 64px;
+    border-radius: 8px;
+    background-color: rgb(229, 84, 115);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.image{
+    width: 635px;
+    height: 800px;
+    margin-top: 50px;
+    margin-right: 240px;
+}
+
+
+
+
+.body1{
+    width: 594px;
+    height: 132px;
+    margin: auto;
+    margin-top: 178px;
+
+}
+
+.body1 h4{
+    width: 392px;
+    height: 48px;
+    color: rgb(39, 39, 39);
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 24px;
+
+
+}
+
+.body1 p{
+    width: 594px;
+    height: 60px;
+    color: rgba(39, 39, 39, 0.4);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+
+
+
+.section2{
+    width: 1440px;
+    height: 605px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin: 38px 240px 128px 240px;
+
+}
+
+.body2{
+    width: 464px;
+    height: 605px;
+    
+}
+
+.body2-center1{
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(167, 33, 98, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items:self-end;
+}
+.body2-center1 img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.body2-center2{
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(5, 151, 160, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.body2-center2 img{
+    width: 310px;
+    height: 428px;
+    
+}
+
+.body2-center3{
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(71, 125, 17, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: self-end;
+}
+
+.body2 p{
+    width: 181px;
+    height: 35px;
+    color: rgb(39, 39, 39);
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration-line: underline;
+    margin: auto;
+    margin-top: 32px;
+}
+
+
+
+.section3{
+    width: 1440px;
+    height: 320px;
+    border-radius: 8px;
+    background-color: rgba(39, 39, 39, 0.05);
+    margin: auto;
+    display: flex;
+    margin-bottom: 128px;
+}
+.section3 .body3{
+    width: 1090px;
+    height: 147px;
+    margin: auto;
+    margin: 86px 175px;
+    display: grid;
+    grid-template-columns: 372px 316px 202px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 100px;
+    align-content: center;
+}
+
+.body3-center img{
+    width: 77px;
+    height: 82.5px;
+    margin: auto;
+    display: grid;
+    justify-content:center;
+}
+.body3-center p{
+    width: 372px;
+    height: 35px;
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 26px;
+
+}
+
+
+
+.section4{
+    width:1922px;
+    height: 620px;
+    border-radius: 8px;
+    background-color: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: space-between;
+
+}
+.body4{
+    width: 594px;
+    height: 228px;
+    margin: 230PX 186PX 62PX 395px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.body4 h3{
+    width: 537px;
+    height: 48px;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: left;
+}
+.body4 span{
+    color: rgb(229, 84, 115);
+}
+.body4 p{
+    width: 594px;
+    height: 60px;
+    color: rgba(39, 39, 39, 0.4);
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+.body4 button{
+    width: 155px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    border-radius: 8px;
+    background-color: rgb(229, 84, 115);
+   
+
+}
+.image2{
+    width: 318px;
+    height: 420px;
+    margin: 100px 429px 100px 0px;
+}
