@@ -10,56 +10,53 @@
     padding: 0px;
     font-family: Lato;
 }
-main{
-    width: 1920px;
-}
+
 
 .container{
-    width:1920px;
-    height: 850px;
     background-color: rgba(229, 84, 115, 0.1);
-    display: flex;
-    justify-content: space-between;
     
 }
-
-.head{
-    width: 708px;
-    height: 506px;
-    margin: 197px 97px 147px 240px;
+.contain{
+    width:1440px;
+    margin: auto;
+   
 }
+.masku{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
 .head h3{
-    width: 708px;
-    height: 288px;
-    font-size: 80px;
+    width: 44.25rem;
+    font-size: 5rem;
     font-weight: 800;
-    line-height: 96px;
+    line-height: 6rem;
     color: rgb(39, 39, 39);
 }
 .head p{
-    width: 634px;
-    height: 90px;
-    margin: 32px 0px;
-    font-size: 18px;
+    width: 40rem;
+    margin: 2rem 0rem;
+    font-size: 1.1rem;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 2rem;
     color: rgba(39, 39, 39, 0.4);
 }
 .head button{
-    width: 177px;
-    height: 64px;
-    border-radius: 8px;
+    width: 11rem;
+    height: 4rem;
+    border-radius: 0.5rem;
     background-color: rgb(229, 84, 115);
     color: rgb(255, 255, 255);
-    font-size: 20px;
+    font-size: 1.2rem;
     font-weight: 700;
 }
 
-.image{
-    width: 635px;
-    height: 800px;
-    margin-top: 50px;
-    margin-right: 240px;
+img {
+    width: 40%;
+    margin-top: 3.1rem;
 }
 
 
@@ -270,4 +267,8 @@ main{
     width: 318px;
     height: 420px;
     margin: 100px 429px 100px 0px;
+}
+
+.display{
+    display:none;
 }
